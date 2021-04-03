@@ -1,0 +1,43 @@
+{
+  "name": "home-security",
+  "version": "1.0.0",
+  "description": "Home security app with Red Alert",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhirajsgophane/Home-Security.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Dhiraj Gophane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhirajsgophane/Home-Security/issues"
+  },
+  "homepage": "https://github.com/dhirajsgophane/Home-Security#readme",
+  "dependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.30.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
+}
