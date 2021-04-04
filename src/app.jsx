@@ -1,10 +1,18 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
-import './style.css';
+import './app.scss';
+
+import Header from './components/Header/Header.jsx';
+import Banner from './components/Banner/Banner.jsx';
+import MostAskedQuestions from './components/MostAskedQuestions/MostAskedQuestions.jsx';
 
 const HomeSecurity = () => {
 	return (
-		<div className={'home-security-wrapper'}>Hello There!!</div>
+		<React.Fragment>
+			<Header />
+			<Banner />
+			<MostAskedQuestions />
+		</React.Fragment>
 	);
 };
 

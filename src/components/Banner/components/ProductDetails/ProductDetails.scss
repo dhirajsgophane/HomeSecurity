@@ -1,0 +1,48 @@
+@import "../../../../app";
+
+.product-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  .product-details-header-wrapper {
+    font-size: 30px;
+    text-align: center;
+    .product-details-header {
+      font-weight: bold;
+    }
+  }
+  .product-details-actions {
+    display: flex;
+    .get-started {
+      margin-right: 10px;
+    }
+  }
+  .banner-mobile {
+    display: none;
+  }
+}
+
+@include for-phone-only {
+  .product-details-wrapper {
+    align-items: inherit;
+    padding: 20px;
+    width: 100%;
+    .product-details-header-wrapper {
+      font-size: 24px;
+    }
+    .banner-mobile {
+      display: block;
+      margin: 15px 10px;
+    }
+    .product-details-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .get-started{
+        margin: 15px 0;
+      }
+    }
+  }
+}

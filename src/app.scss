@@ -1,0 +1,50 @@
+$dark-grey: #2B2D42;
+$grey: #8D99AE;
+$light-grey: #EDF2F4;
+$dark-red: #7F1028;
+$light-red: #AD646D;
+$white: #FFFFFF;
+
+@mixin for-phone-only {
+    @media (max-width: 599px) { @content; }
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: $dark-grey;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    color: white;
+    text-decoration: none;
+    background: $light-red;
+    box-shadow: inset 0px -10px 20px 0px $dark-red;
+    cursor: pointer;
+    width: 200px;
+    &:hover {
+        background: $dark-red;
+        box-shadow: none;
+    }
+    &.info {
+        background: $light-grey;
+        box-shadow: inset 0px -20px 20px 12px $dark-grey;
+        &:hover {
+            background: $dark-grey;
+            box-shadow: none;
+        }
+    }
+}
