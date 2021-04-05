@@ -2,7 +2,8 @@
 
 .banner-wrapper {
   display: flex;
-  flex-grow: 1;
+  flex-shrink: 0;
+  height: 50%;
   background: $light-grey;
 
   .product-one {
@@ -15,8 +16,11 @@
     background: url('../../../images/product-2-transparent.png') no-repeat center ;
     background-size: 80%;
   }
+}
 
-  @include for-phone-only {
+@include for-phone-only {
+  .banner-wrapper{
+    height: 58%;
     .banner-desktop.product-one, .banner-desktop.product-two {
       display: none;
     }

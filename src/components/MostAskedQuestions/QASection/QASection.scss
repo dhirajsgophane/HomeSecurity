@@ -1,0 +1,48 @@
+@import '../../../app';
+
+.qna-section{
+  padding: 10px;
+  border-bottom: 2px solid $grey;
+  cursor: pointer;
+  &:last-of-type {
+    border-bottom: 0;
+  }
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .section-answer {
+    display: none;
+    padding-top: 10px;
+  }
+  &.expanded {
+    .section-answer {
+      display: block;
+    }
+    .section-question {
+      font-weight: bold;
+    }
+    .arrow::before {
+      transform: rotate(-90deg);
+      top: 5px;
+    }
+  }
+
+  .arrow {
+    width: 20px;
+    &::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      content: '';
+      width: 0;
+      height: 0;
+      border: .5em solid transparent;
+      border-left-color: gray;
+      transform-origin: 0 50%;
+      transform: rotate(90deg);
+    }
+  }
+}

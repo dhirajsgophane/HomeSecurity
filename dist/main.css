@@ -80,6 +80,7 @@ button.info:hover {
 .header-wrapper {
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
   align-items: center;
   padding: 15px 0;
   background-color: #7F1028;
@@ -140,6 +141,7 @@ button.info:hover {
   height: 100%;
   width: 100%;
   background: rgba(255, 255, 255, 0.8);
+  z-index: 1;
 }
 .modal-container .modal-content {
   display: table;
@@ -161,7 +163,7 @@ button.info:hover {
   text-align: center;
 }
 .modal-container .modal-content .product-info {
-  padding: 20px 40px;
+  padding: 0 40px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,7 +186,7 @@ button.info:hover {
 .modal-container .modal-content .product-info .product-info-subheader {
   text-align: center;
   font-size: 11px;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .modal-container .modal-content .product-info .product-price {
   font-weight: bold;
@@ -193,7 +195,7 @@ button.info:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px 0;
+  margin-bottom: 10px;
 }
 html, body {
   height: 100%;
@@ -323,7 +325,8 @@ button.info:hover {
 
 .banner-wrapper {
   display: flex;
-  flex-grow: 1;
+  flex-shrink: 0;
+  height: 50%;
   background: #EDF2F4;
 }
 .banner-wrapper .product-one {
@@ -336,11 +339,162 @@ button.info:hover {
   background: url(d8d87ae09ea237907d22e1d736c1ad5d.png) no-repeat center;
   background-size: 80%;
 }
+
 @media (max-width: 599px) {
+  .banner-wrapper {
+    height: 58%;
+  }
   .banner-wrapper .banner-desktop.product-one, .banner-wrapper .banner-desktop.product-two {
     display: none;
   }
 }
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #2B2D42;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+  background: #AD646D;
+  box-shadow: inset 0px -10px 20px 0px #7F1028;
+  cursor: pointer;
+  width: 200px;
+}
+button:hover {
+  background: #7F1028;
+  box-shadow: none;
+}
+button.info {
+  background: #EDF2F4;
+  box-shadow: inset 0px -20px 20px 12px #2B2D42;
+}
+button.info:hover {
+  background: #2B2D42;
+  box-shadow: none;
+}
+
+.qna-section {
+  padding: 10px;
+  border-bottom: 2px solid #8D99AE;
+  cursor: pointer;
+}
+.qna-section:last-of-type {
+  border-bottom: 0;
+}
+.qna-section .section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.qna-section .section-answer {
+  display: none;
+  padding-top: 10px;
+}
+.qna-section.expanded .section-answer {
+  display: block;
+}
+.qna-section.expanded .section-question {
+  font-weight: bold;
+}
+.qna-section.expanded .arrow::before {
+  transform: rotate(-90deg);
+  top: 5px;
+}
+.qna-section .arrow {
+  width: 20px;
+}
+.qna-section .arrow::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  width: 0;
+  height: 0;
+  border: 0.5em solid transparent;
+  border-left-color: gray;
+  transform-origin: 0 50%;
+  transform: rotate(90deg);
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #2B2D42;
+}
+
+button {
+  padding: 10px 25px;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+  background: #AD646D;
+  box-shadow: inset 0px -10px 20px 0px #7F1028;
+  cursor: pointer;
+  width: 200px;
+}
+button:hover {
+  background: #7F1028;
+  box-shadow: none;
+}
+button.info {
+  background: #EDF2F4;
+  box-shadow: inset 0px -20px 20px 12px #2B2D42;
+}
+button.info:hover {
+  background: #2B2D42;
+  box-shadow: none;
+}
+
 .most-asked-question-wrapper {
   flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  padding-bottom: 30px;
+}
+.most-asked-question-wrapper .most-asked-question-header {
+  font-weight: bold;
+  margin: 15px 0 10px;
+  font-size: 18px;
+}
+.most-asked-question-wrapper .section-wrapper {
+  width: 50%;
+  border: 2px solid #8D99AE;
+  border-radius: 10px;
+}
+
+@media (max-width: 599px) {
+  .most-asked-question-wrapper .section-wrapper {
+    width: 100%;
+    border-top: 2px 0 solid #8D99AE;
+    border-bottom: 2px 0 solid #8D99AE;
+    border-radius: 0;
+  }
 }
