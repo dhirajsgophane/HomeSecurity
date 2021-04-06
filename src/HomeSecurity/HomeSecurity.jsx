@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM  from 'react-dom';
-import './app.scss';
-
+import './HomeSecurity.scss';
 import Header from './components/Header/Header.jsx';
 import Banner from './components/Banner/Banner.jsx';
 import MostAskedQuestions from './components/MostAskedQuestions/MostAskedQuestions.jsx';

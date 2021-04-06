@@ -1,4 +1,4 @@
-@import "../../app";
+@import "../../HomeSecurity";
 
 .banner-wrapper {
   display: flex;
@@ -8,12 +8,12 @@
 
   .product-one {
     flex-grow: 1;
-    background: url('../../../images/product-1-transparent.png') no-repeat center ;
+    background: url('../../../../images/product-1-transparent.png') no-repeat center ;
     background-size: 80%;
   }
   .product-two {
     flex-grow: 1;
-    background: url('../../../images/product-2-transparent.png') no-repeat center ;
+    background: url('../../../../images/product-2-transparent.png') no-repeat center ;
     background-size: 80%;
   }
 }

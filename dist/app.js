@@ -9,157 +9,157 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/app.jsx":
-/*!*********************!*\
-  !*** ./src/app.jsx ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.scss */ \"./src/app.scss\");\n/* harmony import */ var _components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Header/Header.jsx */ \"./src/components/Header/Header.jsx\");\n/* harmony import */ var _components_Banner_Banner_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Banner/Banner.jsx */ \"./src/components/Banner/Banner.jsx\");\n/* harmony import */ var _components_MostAskedQuestions_MostAskedQuestions_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/MostAskedQuestions/MostAskedQuestions.jsx */ \"./src/components/MostAskedQuestions/MostAskedQuestions.jsx\");\n\n\n\n\n\n\n\nvar HomeSecurity = function HomeSecurity() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Banner_Banner_jsx__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MostAskedQuestions_MostAskedQuestions_jsx__WEBPACK_IMPORTED_MODULE_5__.default, null));\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(HomeSecurity, null), document.getElementById('root'));\n\n//# sourceURL=webpack://home-security/./src/app.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/Banner/Banner.jsx":
-/*!******************************************!*\
-  !*** ./src/components/Banner/Banner.jsx ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _components_ProductDetails_ProductDetails_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/ProductDetails/ProductDetails.jsx */ \"./src/components/Banner/components/ProductDetails/ProductDetails.jsx\");\n/* harmony import */ var _Banner_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.scss */ \"./src/components/Banner/Banner.scss\");\n\n\n\n\nvar Banner = function Banner() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-desktop product-two'\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ProductDetails_ProductDetails_jsx__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-desktop product-one'\n  }));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Banner);\n\n//# sourceURL=webpack://home-security/./src/components/Banner/Banner.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx":
-/*!**************************************************************************!*\
-  !*** ./src/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx ***!
-  \**************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _MoreInfoModal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MoreInfoModal.scss */ \"./src/components/Banner/components/MoreInfoModal/MoreInfoModal.scss\");\n\n\n\n\nvar MoreInfoModal = function MoreInfoModal(_ref) {\n  var toggleModal = _ref.toggleModal;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-container'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-content'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-header'\n  }, \"More information\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-image-container'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-two'\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-header'\n  }, \"Warning Red Alert Basic\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-subheader'\n  }, \"Contains 3 door sensors, 2 door locks, 1 alarm and 1 hub.\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-price'\n  }, \"\\u20AC 59,99\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info last'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-image-container'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-one'\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-header'\n  }, \"Warning Red Alert Premium\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-subheader'\n  }, \"Contains everything Red Alert Basic has, plus a weather proof camera\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-price'\n  }, \"\\u20AC 109,99\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-action-bar'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    className: 'close-modal',\n    onClick: toggleModal\n  }, \"Close\"))));\n};\n\nMoreInfoModal.propTypes = {\n  toggleModal: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().func)\n};\nMoreInfoModal.defaultProps = {\n  toggleModal: function toggleModal() {\n    return null;\n  }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MoreInfoModal);\n\n//# sourceURL=webpack://home-security/./src/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/Banner/components/ProductDetails/ProductDetails.jsx":
-/*!****************************************************************************!*\
-  !*** ./src/components/Banner/components/ProductDetails/ProductDetails.jsx ***!
-  \****************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _MoreInfoModal_MoreInfoModal_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../MoreInfoModal/MoreInfoModal.jsx */ \"./src/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx\");\n/* harmony import */ var _ProductDetails_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProductDetails.scss */ \"./src/components/Banner/components/ProductDetails/ProductDetails.scss\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\nvar ProductDetails = function ProductDetails() {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),\n      _useState2 = _slicedToArray(_useState, 2),\n      modalState = _useState2[0],\n      setModalState = _useState2[1];\n\n  var toggleModal = function toggleModal() {\n    return setModalState(!modalState);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-header-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-header'\n  }, \"Protect your home\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-subheader'\n  }, \"for a criminally low price\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-mobile product-two'\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-actions'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    className: 'get-started'\n  }, \"Get started for \\u20AC 59,99\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    className: 'more-info info',\n    onClick: toggleModal\n  }, \"More information\")), modalState && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MoreInfoModal_MoreInfoModal_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n    toggleModal: toggleModal\n  }));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductDetails);\n\n//# sourceURL=webpack://home-security/./src/components/Banner/components/ProductDetails/ProductDetails.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/Header/Header.jsx":
-/*!******************************************!*\
-  !*** ./src/components/Header/Header.jsx ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.scss */ \"./src/components/Header/Header.scss\");\n\n\n\nvar Header = function Header() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'header-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'header-title'\n  }, \"Red Alert\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'header-subtitle'\n  }, \"by Warning\"));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n//# sourceURL=webpack://home-security/./src/components/Header/Header.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/MostAskedQuestions/MostAskedQuestions.jsx":
-/*!******************************************************************!*\
-  !*** ./src/components/MostAskedQuestions/MostAskedQuestions.jsx ***!
-  \******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _QASection_QASection_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QASection/QASection.jsx */ \"./src/components/MostAskedQuestions/QASection/QASection.jsx\");\n/* harmony import */ var _MostAskedQuestions_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MostAskedQuestions.scss */ \"./src/components/MostAskedQuestions/MostAskedQuestions.scss\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\nvar qnaCollection = [{\n  question: 'How long does Red Alert stay active after enabling?',\n  answer: 'Once you enable Red Alert, it stays active until the moment you have set during the initial setup of your Red Alert Home Alarm. By default it is 8:00 in the morning.'\n}, {\n  question: 'When should I replace Red Alert?',\n  answer: 'Once indication on the device turns red it is time to replace the device.'\n}, {\n  question: 'What is the benefit of Red Alert compared to other home invasion alarms?',\n  answer: 'Red Alert is reliable and has advance technology which provide high level security.'\n}, {\n  question: 'What guarantees does Red Alert give against burglary?',\n  answer: 'Red Alerts full proof security arrangements provides high level reliability and guarantee.'\n}, {\n  question: 'Why is Red Alert so cheap compared to competitors?',\n  answer: 'Red Alert is committed to provide best service in affordable price.'\n}];\n\nvar MostAskedQuestions = function MostAskedQuestions() {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(-1),\n      _useState2 = _slicedToArray(_useState, 2),\n      expandedSection = _useState2[0],\n      setExpandedSection = _useState2[1];\n\n  var handleExpand = function handleExpand(index) {\n    return expandedSection === index ? setExpandedSection(-1) : setExpandedSection(index);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'most-asked-question-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'most-asked-question-header'\n  }, \"Most Asked Questions\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'section-wrapper'\n  }, qnaCollection.map(function (section, index) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_QASection_QASection_jsx__WEBPACK_IMPORTED_MODULE_1__.default, {\n      key: index,\n      sectionDetails: section,\n      isExpanded: expandedSection === index,\n      setExpandedSection: function setExpandedSection() {\n        return handleExpand(index);\n      }\n    });\n  })));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MostAskedQuestions);\n\n//# sourceURL=webpack://home-security/./src/components/MostAskedQuestions/MostAskedQuestions.jsx?");
-
-/***/ }),
-
-/***/ "./src/components/MostAskedQuestions/QASection/QASection.jsx":
-/*!*******************************************************************!*\
-  !*** ./src/components/MostAskedQuestions/QASection/QASection.jsx ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _QASection_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QASection.scss */ \"./src/components/MostAskedQuestions/QASection/QASection.scss\");\n\n\n\nvar QASection = function QASection(_ref) {\n  var sectionDetails = _ref.sectionDetails,\n      isExpanded = _ref.isExpanded,\n      setExpandedSection = _ref.setExpandedSection;\n  var question = sectionDetails.question,\n      answer = sectionDetails.answer;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"qna-section \".concat(isExpanded ? 'expanded' : ''),\n    onClick: setExpandedSection\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"section-header\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'section-question'\n  }, question), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"arrow\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"section-answer\"\n  }, answer));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (QASection);\n\n//# sourceURL=webpack://home-security/./src/components/MostAskedQuestions/QASection/QASection.jsx?");
-
-/***/ }),
-
-/***/ "./src/app.scss":
-/*!**********************!*\
-  !*** ./src/app.scss ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/app.scss?");
-
-/***/ }),
-
-/***/ "./src/components/Banner/Banner.scss":
+/***/ "./src/HomeSecurity/HomeSecurity.jsx":
 /*!*******************************************!*\
-  !*** ./src/components/Banner/Banner.scss ***!
+  !*** ./src/HomeSecurity/HomeSecurity.jsx ***!
   \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/components/Banner/Banner.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _HomeSecurity_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./HomeSecurity.scss */ \"./src/HomeSecurity/HomeSecurity.scss\");\n/* harmony import */ var _components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Header/Header.jsx */ \"./src/HomeSecurity/components/Header/Header.jsx\");\n/* harmony import */ var _components_Banner_Banner_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Banner/Banner.jsx */ \"./src/HomeSecurity/components/Banner/Banner.jsx\");\n/* harmony import */ var _components_MostAskedQuestions_MostAskedQuestions_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/MostAskedQuestions/MostAskedQuestions.jsx */ \"./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.jsx\");\n\n\n\n\n\n\n\nvar HomeSecurity = function HomeSecurity() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Header_Header_jsx__WEBPACK_IMPORTED_MODULE_3__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_Banner_Banner_jsx__WEBPACK_IMPORTED_MODULE_4__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_MostAskedQuestions_MostAskedQuestions_jsx__WEBPACK_IMPORTED_MODULE_5__.default, null));\n};\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(HomeSecurity, null), document.getElementById('root'));\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/HomeSecurity.jsx?");
 
 /***/ }),
 
-/***/ "./src/components/Banner/components/MoreInfoModal/MoreInfoModal.scss":
-/*!***************************************************************************!*\
-  !*** ./src/components/Banner/components/MoreInfoModal/MoreInfoModal.scss ***!
-  \***************************************************************************/
+/***/ "./src/HomeSecurity/components/Banner/Banner.jsx":
+/*!*******************************************************!*\
+  !*** ./src/HomeSecurity/components/Banner/Banner.jsx ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/components/Banner/components/MoreInfoModal/MoreInfoModal.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _components_ProductDetails_ProductDetails_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/ProductDetails/ProductDetails.jsx */ \"./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.jsx\");\n/* harmony import */ var _Banner_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.scss */ \"./src/HomeSecurity/components/Banner/Banner.scss\");\n\n\n\n\nvar Banner = function Banner() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-desktop product-two'\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_components_ProductDetails_ProductDetails_jsx__WEBPACK_IMPORTED_MODULE_1__.default, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-desktop product-one'\n  }));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Banner);\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Banner/Banner.jsx?");
 
 /***/ }),
 
-/***/ "./src/components/Banner/components/ProductDetails/ProductDetails.scss":
-/*!*****************************************************************************!*\
-  !*** ./src/components/Banner/components/ProductDetails/ProductDetails.scss ***!
-  \*****************************************************************************/
+/***/ "./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx":
+/*!***************************************************************************************!*\
+  !*** ./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx ***!
+  \***************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/components/Banner/components/ProductDetails/ProductDetails.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ \"./node_modules/prop-types/index.js\");\n/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _MoreInfoModal_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MoreInfoModal.scss */ \"./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.scss\");\n\n\n\n\nvar MoreInfoModal = function MoreInfoModal(_ref) {\n  var toggleModal = _ref.toggleModal;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-container'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-content'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-header'\n  }, \"More information\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-image-container'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-two'\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-header'\n  }, \"Warning Red Alert Basic\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-subheader'\n  }, \"Contains 3 door sensors, 2 door locks, 1 alarm and 1 hub.\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-price'\n  }, \"\\u20AC 59,99\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info last'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-image-container'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-one'\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-header'\n  }, \"Warning Red Alert Premium\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-info-subheader'\n  }, \"Contains everything Red Alert Basic has, plus a weather proof camera\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-price'\n  }, \"\\u20AC 109,99\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'modal-action-bar'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    className: 'close-modal',\n    onClick: toggleModal\n  }, \"Close\"))));\n};\n\nMoreInfoModal.propTypes = {\n  toggleModal: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().func)\n};\nMoreInfoModal.defaultProps = {\n  toggleModal: function toggleModal() {\n    return null;\n  }\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MoreInfoModal);\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx?");
 
 /***/ }),
 
-/***/ "./src/components/Header/Header.scss":
-/*!*******************************************!*\
-  !*** ./src/components/Header/Header.scss ***!
-  \*******************************************/
+/***/ "./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.jsx":
+/*!*****************************************************************************************!*\
+  !*** ./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.jsx ***!
+  \*****************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/components/Header/Header.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var _MoreInfoModal_MoreInfoModal_jsx__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../MoreInfoModal/MoreInfoModal.jsx */ \"./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.jsx\");\n/* harmony import */ var _ProductDetails_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ProductDetails.scss */ \"./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.scss\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\n\n\nvar ProductDetails = function ProductDetails() {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),\n      _useState2 = _slicedToArray(_useState, 2),\n      modalState = _useState2[0],\n      setModalState = _useState2[1];\n\n  var toggleModal = function toggleModal() {\n    return setModalState(!modalState);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-header-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-header'\n  }, \"Protect your home\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-subheader'\n  }, \"for a criminally low price\")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'banner-mobile product-two'\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'product-details-actions'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    className: 'get-started'\n  }, \"Get started for \\u20AC 59,99\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", {\n    className: 'more-info info',\n    onClick: toggleModal\n  }, \"More information\")), modalState && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_MoreInfoModal_MoreInfoModal_jsx__WEBPACK_IMPORTED_MODULE_2__.default, {\n    toggleModal: toggleModal\n  }));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductDetails);\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.jsx?");
 
 /***/ }),
 
-/***/ "./src/components/MostAskedQuestions/MostAskedQuestions.scss":
-/*!*******************************************************************!*\
-  !*** ./src/components/MostAskedQuestions/MostAskedQuestions.scss ***!
-  \*******************************************************************/
+/***/ "./src/HomeSecurity/components/Header/Header.jsx":
+/*!*******************************************************!*\
+  !*** ./src/HomeSecurity/components/Header/Header.jsx ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/components/MostAskedQuestions/MostAskedQuestions.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _Header_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.scss */ \"./src/HomeSecurity/components/Header/Header.scss\");\n\n\n\nvar Header = function Header() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'header-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'header-title'\n  }, \"Red Alert\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'header-subtitle'\n  }, \"by Warning\"));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Header/Header.jsx?");
 
 /***/ }),
 
-/***/ "./src/components/MostAskedQuestions/QASection/QASection.scss":
-/*!********************************************************************!*\
-  !*** ./src/components/MostAskedQuestions/QASection/QASection.scss ***!
-  \********************************************************************/
+/***/ "./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.jsx":
+/*!*******************************************************************************!*\
+  !*** ./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.jsx ***!
+  \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/components/MostAskedQuestions/QASection/QASection.scss?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _QASection_QASection_jsx__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QASection/QASection.jsx */ \"./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.jsx\");\n/* harmony import */ var _MostAskedQuestions_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./MostAskedQuestions.scss */ \"./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.scss\");\nfunction _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }\n\nfunction _nonIterableRest() { throw new TypeError(\"Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.\"); }\n\nfunction _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === \"string\") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === \"Object\" && o.constructor) n = o.constructor.name; if (n === \"Map\" || n === \"Set\") return Array.from(o); if (n === \"Arguments\" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }\n\nfunction _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }\n\nfunction _iterableToArrayLimit(arr, i) { if (typeof Symbol === \"undefined\" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i[\"return\"] != null) _i[\"return\"](); } finally { if (_d) throw _e; } } return _arr; }\n\nfunction _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }\n\n\n\n\nvar qnaCollection = [{\n  question: 'How long does Red Alert stay active after enabling?',\n  answer: 'Once you enable Red Alert, it stays active until the moment you have set during the initial setup of your Red Alert Home Alarm. By default it is 8:00 in the morning.'\n}, {\n  question: 'When should I replace Red Alert?',\n  answer: 'Once indication on the device turns red it is time to replace the device.'\n}, {\n  question: 'What is the benefit of Red Alert compared to other home invasion alarms?',\n  answer: 'Red Alert is reliable and has advance technology which provide high level security.'\n}, {\n  question: 'What guarantees does Red Alert give against burglary?',\n  answer: 'Red Alerts full proof security arrangements provides high level reliability and guarantee.'\n}, {\n  question: 'Why is Red Alert so cheap compared to competitors?',\n  answer: 'Red Alert is committed to provide best service in affordable price.'\n}];\n\nvar MostAskedQuestions = function MostAskedQuestions() {\n  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(-1),\n      _useState2 = _slicedToArray(_useState, 2),\n      expandedSection = _useState2[0],\n      setExpandedSection = _useState2[1];\n\n  var handleExpand = function handleExpand(index) {\n    return expandedSection === index ? setExpandedSection(-1) : setExpandedSection(index);\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'most-asked-question-wrapper'\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'most-asked-question-header'\n  }, \"Most Asked Questions\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'section-wrapper'\n  }, qnaCollection.map(function (section, index) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_QASection_QASection_jsx__WEBPACK_IMPORTED_MODULE_1__.default, {\n      key: index,\n      sectionDetails: section,\n      isExpanded: expandedSection === index,\n      setExpandedSection: function setExpandedSection() {\n        return handleExpand(index);\n      }\n    });\n  })));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MostAskedQuestions);\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.jsx?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.jsx":
+/*!********************************************************************************!*\
+  !*** ./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.jsx ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _QASection_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./QASection.scss */ \"./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.scss\");\n\n\n\nvar QASection = function QASection(_ref) {\n  var sectionDetails = _ref.sectionDetails,\n      isExpanded = _ref.isExpanded,\n      setExpandedSection = _ref.setExpandedSection;\n  var question = sectionDetails.question,\n      answer = sectionDetails.answer;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"qna-section \".concat(isExpanded ? 'expanded' : ''),\n    onClick: setExpandedSection\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"section-header\"\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: 'section-question'\n  }, question), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"arrow\"\n  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", {\n    className: \"section-answer\"\n  }, answer));\n};\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (QASection);\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.jsx?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/HomeSecurity.scss":
+/*!********************************************!*\
+  !*** ./src/HomeSecurity/HomeSecurity.scss ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/HomeSecurity.scss?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/Banner/Banner.scss":
+/*!********************************************************!*\
+  !*** ./src/HomeSecurity/components/Banner/Banner.scss ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Banner/Banner.scss?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.scss":
+/*!****************************************************************************************!*\
+  !*** ./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.scss ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Banner/components/MoreInfoModal/MoreInfoModal.scss?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.scss":
+/*!******************************************************************************************!*\
+  !*** ./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.scss ***!
+  \******************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Banner/components/ProductDetails/ProductDetails.scss?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/Header/Header.scss":
+/*!********************************************************!*\
+  !*** ./src/HomeSecurity/components/Header/Header.scss ***!
+  \********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/Header/Header.scss?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.scss":
+/*!********************************************************************************!*\
+  !*** ./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.scss ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/MostAskedQuestions/MostAskedQuestions.scss?");
+
+/***/ }),
+
+/***/ "./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.scss":
+/*!*********************************************************************************!*\
+  !*** ./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.scss ***!
+  \*********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://home-security/./src/HomeSecurity/components/MostAskedQuestions/QASection/QASection.scss?");
 
 /***/ }),
 
@@ -399,7 +399,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/app.jsx");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/HomeSecurity/HomeSecurity.jsx");
 /******/ 	
 /******/ })()
 ;
